@@ -10,7 +10,6 @@ using System.Text.Json.Serialization;
 using Presentation.Models.Aut;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
-using Presentation.GrpcService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,7 +28,6 @@ builder.Services.AddScoped<IVocabLogic, VocabLogic>();
 builder.Services.AddScoped<IGrammerLogic, GrammerLogic>();
 builder.Services.AddScoped<ISpeakingLogic, SpeakingLogic>();
 builder.Services.AddScoped<IUserLogic, UserLogic>();
-builder.Services.AddGrpc();
 
 #region "JWT Token For Authentication Login"    
 SiteKeys.Configure(builder.Configuration.GetSection("AppSettings"));
@@ -108,10 +106,6 @@ else
 
 app.UseHttpsRedirection();
 app.UseRouting();
-
-app.UseEndpoints(endpoints => {
-    endpoints.MapGrpcService<GrpcLevelService>();
-});
    
 
 app.UseAuthentication();
