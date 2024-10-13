@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repo\\LingoMars\\Common\\Common.csproj": {}
+    "D:\\LingoMars\\ApiLearn\\Common\\Common.csproj": {}
   },
   "projects": {
-    "D:\\Repo\\LingoMars\\Common\\Common.csproj": {
+    "D:\\LingoMars\\ApiLearn\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repo\\LingoMars\\Common\\Common.csproj",
+        "projectUniqueName": "D:\\LingoMars\\ApiLearn\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "D:\\Repo\\LingoMars\\Common\\Common.csproj",
+        "projectPath": "D:\\LingoMars\\ApiLearn\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-        "outputPath": "D:\\Repo\\LingoMars\\Common\\obj\\",
+        "outputPath": "D:\\LingoMars\\ApiLearn\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

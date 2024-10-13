@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yNk2RHVaZDQ1QAZGmyZovFl83ABz5ZtiiOi4qgcAZdQVELoRlD/nrn+d3/sMzmPSPMdMTWJGgn2eC+45W7vYrA==",
+  "dgSpecHash": "ay7yLsxeJw2TF53TXlTX5uoeAElOXYJUBDNvo01eV1KicVpcvWQWhn642lyViTrQaMKjZ1LuCw0Hw9zHy5/W1A==",
   "success": true,
-  "projectFilePath": "D:\\Repo\\LingoMars\\Common\\Common.csproj",
+  "projectFilePath": "D:\\LingoMars\\ApiLearn\\Common\\Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

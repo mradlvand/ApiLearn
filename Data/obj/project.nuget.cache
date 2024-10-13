@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pcS99Kj8sFl3Zs76duaimNItms0lL5Te2cNTIx9/P3CERh1/umUATwULY/RWI2oP3P7RLyRXuWVzEJFOPtgFjA==",
+  "dgSpecHash": "6t4A3yuLCWHKtka2jSLDw6GUl6HPOqQvcE+KSoNyd700m+lhzGM6Oq01x32MpRxhTDElVpsUVM9B65vyP864+Q==",
   "success": true,
-  "projectFilePath": "D:\\Repo\\LingoMars\\Data\\Data.csproj",
+  "projectFilePath": "D:\\LingoMars\\ApiLearn\\Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\a\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

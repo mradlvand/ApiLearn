@@ -2036,11 +2036,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repo\\LingoMars\\Data\\Data.csproj",
+      "projectUniqueName": "D:\\LingoMars\\ApiLearn\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "D:\\Repo\\LingoMars\\Data\\Data.csproj",
+      "projectPath": "D:\\LingoMars\\ApiLearn\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-      "outputPath": "D:\\Repo\\LingoMars\\Data\\obj\\",
+      "outputPath": "D:\\LingoMars\\ApiLearn\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2062,8 +2062,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Repo\\LingoMars\\Model\\Model.csproj": {
-              "projectPath": "D:\\Repo\\LingoMars\\Model\\Model.csproj"
+            "D:\\LingoMars\\ApiLearn\\Model\\Model.csproj": {
+              "projectPath": "D:\\LingoMars\\ApiLearn\\Model\\Model.csproj"
             }
           }
         }

@@ -228,6 +228,46 @@ namespace Data.Migrations
                     b.ToTable("Speakings");
                 });
 
+            modelBuilder.Entity("Model.Models.Story", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("CreationDateTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Location")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Video")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Stories");
+                });
+
             modelBuilder.Entity("Model.Models.User", b =>
                 {
                     b.Property<int>("Id")
@@ -298,6 +338,38 @@ namespace Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("UserProgresses");
+                });
+
+            modelBuilder.Entity("Model.Models.UserTask", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("CreationDateTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Picture")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("UserTasks");
                 });
 
             modelBuilder.Entity("Model.Models.Vocabulary", b =>
@@ -383,6 +455,17 @@ namespace Data.Migrations
                     b.Navigation("Lesson");
                 });
 
+            modelBuilder.Entity("Model.Models.Story", b =>
+                {
+                    b.HasOne("Model.Models.User", "User")
+                        .WithMany("Stories")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Model.Models.Vocabulary", b =>
                 {
                     b.HasOne("Model.Models.Lesson", "Lesson")
@@ -408,6 +491,11 @@ namespace Data.Migrations
             modelBuilder.Entity("Model.Models.Level", b =>
                 {
                     b.Navigation("Lessons");
+                });
+
+            modelBuilder.Entity("Model.Models.User", b =>
+                {
+                    b.Navigation("Stories");
                 });
 #pragma warning restore 612, 618
         }

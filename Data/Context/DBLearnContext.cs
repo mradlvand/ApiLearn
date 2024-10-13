@@ -20,6 +20,8 @@ namespace Data.Context
         public DbSet<User> Users { get; set; }
         public DbSet<Exercise>? Exercise { get; set; }
         public DbSet<UserProgress> UserProgresses { get; set; }
+        public DbSet<Story> Stories { get; set; }
+        public DbSet<UserTask> UserTasks { get; set; }
 
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{

@@ -19,5 +19,7 @@ namespace Model.Models
         public UserRole Role { get; set; }
         public Category UserCategory { get; set; }
         public bool Status { get; set; }
+
+        public List<Story> Stories { get; set; }
     }
 }

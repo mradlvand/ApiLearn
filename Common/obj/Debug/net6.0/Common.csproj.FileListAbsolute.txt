@@ -10,3 +10,15 @@ D:\Repo\LingoMars\Common\obj\Debug\net6.0\Common.dll
 D:\Repo\LingoMars\Common\obj\Debug\net6.0\refint\Common.dll
 D:\Repo\LingoMars\Common\obj\Debug\net6.0\Common.pdb
 D:\Repo\LingoMars\Common\obj\Debug\net6.0\ref\Common.dll
+D:\LingoMars\ApiLearn\Common\bin\Debug\net6.0\Common.deps.json
+D:\LingoMars\ApiLearn\Common\bin\Debug\net6.0\Common.dll
+D:\LingoMars\ApiLearn\Common\bin\Debug\net6.0\Common.pdb
+D:\LingoMars\ApiLearn\Common\obj\Debug\net6.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\LingoMars\ApiLearn\Common\obj\Debug\net6.0\Common.AssemblyInfoInputs.cache
+D:\LingoMars\ApiLearn\Common\obj\Debug\net6.0\Common.AssemblyInfo.cs
+D:\LingoMars\ApiLearn\Common\obj\Debug\net6.0\Common.csproj.CoreCompileInputs.cache
+D:\LingoMars\ApiLearn\Common\obj\Debug\net6.0\Common.sourcelink.json
+D:\LingoMars\ApiLearn\Common\obj\Debug\net6.0\Common.dll
+D:\LingoMars\ApiLearn\Common\obj\Debug\net6.0\refint\Common.dll
+D:\LingoMars\ApiLearn\Common\obj\Debug\net6.0\Common.pdb
+D:\LingoMars\ApiLearn\Common\obj\Debug\net6.0\ref\Common.dll
